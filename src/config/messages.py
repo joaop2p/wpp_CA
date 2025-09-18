@@ -1,0 +1,23 @@
+class ErrorsMessages:
+    NO_COLUMNS_IN_DATA = "Colunas necessárias ausentes."
+    INVALID_PATH_ERR = "Diretório inválido: {path}."
+    DRIVER_CACHE_INVALID = "O caminho do cache '{path}' para o WebDriver não é válido."
+    EXTENSION_NOT_SUPPORTED =  "Tipo de arquivo não reconhecido. As extensões suportadas incluem: .xlsx, .xls, .csv e txt."
+    EMPY_DATA_FRAME = "O DataFrame está vazio. Verifique o arquivo."
+    ERROR_READING_FILE = "Erro ao ler o arquivo: {}."
+    PRINT_ERROR = "Não foi possível imprimir a tela."
+
+class LoggingMessages:
+    CURRENT_CLIENT = "UC Atual: {uc}"
+    EMPTY_DATAFRAME = "Sem ocorrências no momento."
+    WELCOME = "Seja bem vindo(a) ao script [Nome do projeto aqui].\nVersão atual: {version}\tLogin: {login}"
+    EXIT = "Operação encerrada com código {code}, até breve."
+    SEARCH_MESSAGE_LOG = "Iniciando chat."
+    TOT_OCCURRENCE = "Total de ocorrências: {total}"
+    MESSAGE_SENDED = "Mensagem enviada para {number}"
+    START_APPLICATION = "Driver inicializado com sucesso."
+    START_PLATFORM = "WhatsApp inicializado com sucesso."
+    SEARCH_CONTACT_AFTER = "Iniciando conversas com: {}."
+    SEARCH_CONTACT_BEFORE = "Procurando conversa com: {}."
+    NUMBER_NOT_FIND = "Número '{number}' não possui conta no WhatsApp."
+    FILE_BUSY = "O arquivo '{file}' está ocupado novamente, tentando novamente em 30 segundos."

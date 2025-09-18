@@ -1,0 +1,8 @@
+.vscode
+__pycache__/
+pacote/
+sentinela_data/
+*.log
+*.xlsx
+.env
+.ini
