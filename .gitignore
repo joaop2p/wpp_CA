@@ -5,4 +5,4 @@ sentinela_data/
 *.log
 *.xlsx
 .env
-.ini
+config.ini
